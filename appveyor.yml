@@ -14,5 +14,5 @@ deploy:
   server: https://willitdeployepisode6.tentaclearmy.com:8085/
   api_key:
     secure: O+WRMqY79U0X6sJGYk1qNTUq37Tv8RVMFXOXKVkQqy8=
-  project: Random Quotes
+  project: "Random Quotes"
   environment: Dev
