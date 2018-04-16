@@ -1,11 +1,9 @@
 version: 1.0.{build}
-branches:
-  only:
-  - wid-ep6
 image: Visual Studio 2017
 before_build:
 - ps: nuget restore
 build:
+  project: source\RandomQuotes.sln
   publish_wap_octopus: true
   verbosity: minimal
 deploy:
@@ -16,5 +14,5 @@ deploy:
   server: https://willitdeployepisode6.tentaclearmy.com:8085/
   api_key:
     secure: O+WRMqY79U0X6sJGYk1qNTUq37Tv8RVMFXOXKVkQqy8=
-  project: RandomQuotes
+  project: Random Quotes
   environment: Dev
