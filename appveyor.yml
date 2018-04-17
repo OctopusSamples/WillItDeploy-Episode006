@@ -15,5 +15,5 @@ deploy:
   api_key:
     secure: O+WRMqY79U0X6sJGYk1qNTUq37Tv8RVMFXOXKVkQqy8=
   project: '"Random Quotes"'
-  release_number: APPVEYOR_BUILD_NUMBER
+  release_number: %APPVEYOR_BUILD_NUMBER%
   environment: Dev
