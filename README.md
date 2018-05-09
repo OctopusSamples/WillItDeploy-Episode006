@@ -2,7 +2,7 @@
 
 Welcome to another **Will it Deploy?** episode where we try to automate the deployment of different technologies with Octopus Deploy. In this episode, we're trying to deploy an ASP.NET MVC 5 web app to a Microsoft Azure App Service. We also explore setting up a cloud-based delivery pipeline with [AppVeyor](https://appveyor.com) and [Octopus](https://octopus.com/cloud).
 
-[![Deploying an ASP.NET Core app - Will it Deploy? Episode 6](images/will-it-deploy.png)](https://youtu.be/uIWGd7EUxXE "Deploying an ASP.NET Core app - Will it Deploy? Episode 6")
+[![Deploying an ASP.NET MVC app - Will it Deploy? Episode 6](images/will-it-deploy.png)](https://youtu.be/uIWGd7EUxXE "Deploying an ASP.NET MVC - Will it Deploy? Episode 6")
 
 NOTE: [Octopus Cloud](https://octopus.com/cloud) is coming soon! Register your interest and stay up to date with our cloud-based solution.
 
